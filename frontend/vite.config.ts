@@ -22,6 +22,15 @@ export default defineConfig({
       '/api': {
         target: BACKEND_URL,
         changeOrigin: true,
+        cookieDomainRewrite: '',
+        configure: (proxy) => {
+          proxy.on('proxyRes', (proxyRes) => {
+            const origin = proxyRes.headers['access-control-allow-origin'];
+            if (origin) {
+              proxyRes.headers['access-control-allow-credentials'] = 'true';
+            }
+          });
+        },
       },
       '/functions': {
         target: BACKEND_URL,
