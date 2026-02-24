@@ -17,6 +17,7 @@ export default defineConfig({
   server: {
     host: true, // Listen on all interfaces when running in Docker
     port: 7131,
+    allowedHosts: true,
     proxy: {
       '/api': {
         target: BACKEND_URL,
