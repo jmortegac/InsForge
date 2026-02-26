@@ -56,9 +56,9 @@ services:
       postgres:
         condition: service_healthy
     ports:
-      - "7130:7130"
-      - "7131:7131"
-      - "7132:7132"
+      - "127.0.0.1:7130:7130"
+      - "127.0.0.1:7131:7131"
+      - "127.0.0.1:7132:7132"
     environment:
       - PORT=7130
       - PROJECT_ROOT=/app
