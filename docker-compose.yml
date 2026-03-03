@@ -182,8 +182,14 @@ services:
         echo 'Downloading Deno dependencies...' &&
         deno cache functions/server.ts &&
         echo 'Starting Deno server on port 7133...' &&
-        deno run --allow-net --allow-env --allow-read=./functions/worker-template.js --watch functions/server.ts
+        deno run --allow-net --allow-env --allow-read=./functions/worker-template.js functions/server.ts
       "
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:7133/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
     restart: unless-stopped
     networks:
       - insforge-network
