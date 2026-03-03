@@ -150,7 +150,7 @@ services:
 
   # Deno serverless runtime for edge functions
   deno:
-    image: denoland/deno:alpine-2.0.6
+    image: denoland/deno:alpine-2.7.1
     container_name: insforge-deno
     working_dir: /app
     depends_on:
