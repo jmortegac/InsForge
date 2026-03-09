@@ -8,7 +8,7 @@
   </a>
 
   <p>
-    The backend built for agentic coding.<br />
+    The backend built for agentic development.<br />
   </p>
 
   <p>
@@ -24,7 +24,7 @@
     <a href="https://discord.com/invite/MPxwj5xVvW"><img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge" alt="Join our Discord"></a>
   </p>
   <a href="https://vercel.com/oss">
-    <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+    <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge-2026.svg" />
   </a>
 </div>
 
@@ -32,7 +32,7 @@
 InsForge is a backend development platform built for AI coding agents and AI code editors. It exposes backend primitives like databases, auth, storage, and functions through a semantic layer that agents can understand, reason about, and operate end to end.
 
 <p align="center">
-  <video width="100%" src="https://github.com/user-attachments/assets/e4362de8-ab46-4792-8499-4f1eec42a097" controls></video>
+  <video width="100%" src="https://github.com/user-attachments/assets/2e2a43c9-4664-48a6-b61b-4f7cf8eb0ebf" controls></video>
 </p>
 
 ### How it works
@@ -137,9 +137,9 @@ I'm using InsForge as my backend platform, call InsForge MCP's fetch-docs tool t
 
 In addition to running InsForge locally, you can also launch InsForge using a pre-configured setup. This allows you to get up and running quickly with InsForge without installing Docker on your local machine.
 
-| Railway | Zeabur | Sealos (coming soon) |
+| Railway | Zeabur | Sealos |
 | --- | --- | --- |
-| [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/insforge) | [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/Q82M3Y) | [![Deploy on Sealos](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://template.hzh.sealos.run/deploy?templateName=insforge) |
+| [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/insforge) | [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/Q82M3Y) | [![Deploy on Sealos](https://sealos.io/Deploy-on-Sealos.svg)](https://sealos.io/products/app-store/insforge) |
 
 
 ## Contributing
@@ -229,19 +229,6 @@ Show your project is built with InsForge.
 </a>
 ```
 
-## Translations
-
-- [Arabic | العربية](/i18n/README.ar.md)
-- [Spanish | Español](/i18n/README.es.md)
-- [French | Français](/i18n/README.fr.md)
-- [Hindi | हिंदी](/i18n/README.hi.md)
-- [Japanese | 日本語](/i18n/README.ja.md)
-- [Korean | 한국어](/i18n/README.ko.md)
-- [Portuguese (Brazilian) / Português Brasileiro](/i18n/README.pt-BR.md)
-- [Russian | Русский](/i18n/README.ru.md)
-- [Chinese (Simplified) | 简体中文](/i18n/README.zh-CN.md)
-
----
 
 <p align="center">⭐ <b>Star us on GitHub</b> to get notified about new releases!</p>
 
